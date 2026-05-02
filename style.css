@@ -64,6 +64,9 @@ header {
 }
 
 /* ---- Home Hero ---- */
+.hero h2 {
+  color: #0d47a1;
+}
 .home-main { max-width: 1100px; margin: 0 auto; padding: 40px 20px; flex: 1; }
 .hero { text-align: center; margin-bottom: 40px; }
 .hero h2 { font-size: 1.7rem; color: var(--primary); margin-bottom: 12px; }
