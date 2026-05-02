@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FTP — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html" class="active">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>📁 File Transfer Protocol (FTP)</h2>
+    <p class="tagline">A standard protocol for transferring files between computers over a network</p>
+
+    <img src="images/ftp.svg" alt="FTP file transfer diagram" class="term-img"/>
+
+    <div class="definition-box">
+      File Transfer Protocol (FTP) is a standard Internet protocol that allows files to be easily copied to and from remote sites. It is part of the TCP/IP suite and operates on a client-server model, enabling the upload and download of files across networks.
+    </div>
+
+    <h3>What is FTP?</h3>
+    <p>FTP is one of the oldest and most widely used Internet protocols, predating the World Wide Web. It was standardised in 1985 (RFC 959) and is used to transfer files between a local computer (the FTP client) and a remote server (the FTP server).</p>
+    <p>FTP is commonly used by web developers to upload website files to a web server, and by organisations to share large files between computers.</p>
+
+    <h3>How FTP Works</h3>
+    <ul>
+      <li>FTP uses <strong>two separate connections</strong> between client and server:</li>
+      <li>The <strong>control connection</strong> (port 21) — sends commands and receives responses</li>
+      <li>The <strong>data connection</strong> (port 20 in active mode) — transfers actual file data</li>
+      <li>The client logs into the FTP server (with username/password or anonymously)</li>
+      <li>The client can then browse, upload (PUT), or download (GET) files</li>
+    </ul>
+
+    <h3>FTP vs SFTP vs FTPS</h3>
+    <table class="compare-table">
+      <tr><th>Protocol</th><th>Security</th><th>Port</th><th>Use Case</th></tr>
+      <tr><td>FTP</td><td>None (plaintext)</td><td>21</td><td>Legacy systems, local networks</td></tr>
+      <tr><td>FTPS</td><td>SSL/TLS encryption</td><td>21 / 990</td><td>Secure file transfer over Internet</td></tr>
+      <tr><td>SFTP</td><td>SSH encryption</td><td>22</td><td>Most secure option (preferred today)</td></tr>
+    </table>
+
+    <h3>Common FTP Use Cases</h3>
+    <div class="info-card">
+      <h4>📌 Where FTP is Used</h4>
+      <ul>
+        <li>🌐 <strong>Web development</strong> — uploading HTML, CSS, images to a web server (using tools like FileZilla)</li>
+        <li>📦 <strong>Software distribution</strong> — downloading software packages from FTP mirrors</li>
+        <li>🏢 <strong>Business file sharing</strong> — securely transferring large files between organisations</li>
+        <li>🖨️ <strong>Embedded systems</strong> — printers, routers using FTP to receive configuration files</li>
+      </ul>
+    </div>
+
+    <h3>FTP URL Format</h3>
+    <div class="code-block">
+      ftp://username:password@ftp.example.com/path/to/file.txt<br/><br/>
+      Anonymous FTP: ftp://ftp.example.com/pub/files/
+    </div>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> Plain FTP transmits data (including passwords) in cleartext, making it insecure over public networks. For any sensitive file transfer over the Internet, SFTP (SSH File Transfer Protocol) or FTPS (FTP Secure) should be used instead.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

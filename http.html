@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTTP — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html" class="active">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>🔄 Hypertext Transfer Protocol (HTTP)</h2>
+    <p class="tagline">The request-response protocol that powers communication on the World Wide Web</p>
+
+    <img src="images/http.svg" alt="HTTP request-response cycle diagram" class="term-img"/>
+
+    <div class="definition-box">
+      HTTP (Hypertext Transfer Protocol) is the communication protocol used by the World Wide Web to send information between web browsers (clients) and web servers. When using this protocol, the domain name or IP address is preceded by "http://".
+    </div>
+
+    <h3>What is HTTP?</h3>
+    <p>HTTP is a <strong>request-response protocol</strong> — the browser sends a request, and the server sends back a response. The WWW uses HTTP to send information between clients and servers. Every time you load a web page, your browser is making HTTP requests behind the scenes.</p>
+
+    <h3>The HTTP Request-Response Cycle</h3>
+    <ul>
+      <li><strong>Step 1:</strong> The user enters a URL in the browser (or clicks a link).</li>
+      <li><strong>Step 2:</strong> The browser sends an HTTP request to the server at that address.</li>
+      <li><strong>Step 3:</strong> The server processes the request and retrieves the resource.</li>
+      <li><strong>Step 4:</strong> The server sends back an HTTP response with the resource content.</li>
+      <li><strong>Step 5:</strong> The browser renders the received HTML, CSS, images, etc.</li>
+    </ul>
+
+    <h3>HTTP Request Methods</h3>
+    <p>HTTP requests are always of a specific type. The most common are:</p>
+    <table class="compare-table">
+      <tr><th>Method</th><th>Purpose</th><th>Example Use</th></tr>
+      <tr><td>GET</td><td>Retrieve a resource</td><td>Loading a webpage</td></tr>
+      <tr><td>POST</td><td>Send data to server</td><td>Submitting a form</td></tr>
+      <tr><td>PUT</td><td>Update a resource</td><td>Editing a profile</td></tr>
+      <tr><td>DELETE</td><td>Remove a resource</td><td>Deleting a record</td></tr>
+      <tr><td>HEAD</td><td>Get headers only (no body)</td><td>Checking if a page exists</td></tr>
+      <tr><td>OPTIONS</td><td>Check allowed methods</td><td>CORS preflight requests</td></tr>
+    </table>
+
+    <h3>HTTP vs HTTPS</h3>
+    <div class="info-card">
+      <h4>🔒 HTTPS — HTTP Secure</h4>
+      <p>HTTPS is the secure version of HTTP. It uses <strong>SSL/TLS encryption</strong> to protect data in transit between browser and server. HTTPS runs on port 443, while HTTP runs on port 80. Today, all reputable websites use HTTPS to protect user data and privacy. Browsers display a padlock icon for HTTPS sites.</p>
+    </div>
+
+    <h3>HTTP Status Codes</h3>
+    <ul>
+      <li><strong>200 OK</strong> — Request succeeded, resource returned</li>
+      <li><strong>301 Moved Permanently</strong> — Resource has a new URL</li>
+      <li><strong>404 Not Found</strong> — Resource does not exist on server</li>
+      <li><strong>500 Internal Server Error</strong> — Server encountered an error</li>
+      <li><strong>403 Forbidden</strong> — Access denied to the resource</li>
+    </ul>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> HTTP was designed by Tim Berners-Lee and first used in 1991. The latest version, HTTP/3, uses UDP instead of TCP for even faster performance. HTTPS adoption reached near-100% for major websites by the mid-2020s.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

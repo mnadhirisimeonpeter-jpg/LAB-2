@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, monospace">
+  <rect width="700" height="240" fill="#f0f4ff" rx="10"/>
+  <!-- Code side -->
+  <rect x="30" y="30" width="300" height="175" rx="8" fill="#1e2a3a"/>
+  <rect x="30" y="30" width="300" height="28" rx="8" fill="#2d3f52"/>
+  <rect x="30" y="44" width="300" height="14" fill="#2d3f52"/>
+  <text x="180" y="47" text-anchor="middle" fill="#80cbc4" font-size="10">index.html — source code</text>
+  <text x="45" y="75" fill="#80cbc4" font-size="11">&lt;!DOCTYPE html&gt;</text>
+  <text x="45" y="91" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">html</tspan>&gt;</text>
+  <text x="55" y="107" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">head</tspan>&gt;</text>
+  <text x="65" y="123" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">title</tspan>&gt;<tspan fill="#fff9c4">My Page</tspan>&lt;/<tspan fill="#ef9a9a">title</tspan>&gt;</text>
+  <text x="55" y="139" fill="#80cbc4" font-size="11">&lt;/<tspan fill="#ef9a9a">head</tspan>&gt;</text>
+  <text x="55" y="155" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">body</tspan>&gt;</text>
+  <text x="65" y="171" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">h1</tspan>&gt;<tspan fill="#fff9c4">Hello World</tspan>&lt;/<tspan fill="#ef9a9a">h1</tspan>&gt;</text>
+  <text x="65" y="187" fill="#80cbc4" font-size="11">&lt;<tspan fill="#ef9a9a">p</tspan>&gt;<tspan fill="#fff9c4">A paragraph.</tspan>&lt;/<tspan fill="#ef9a9a">p</tspan>&gt;</text>
+  <!-- Arrow -->
+  <line x1="330" y1="117" x2="368" y2="117" stroke="#ff9800" stroke-width="2.5"/>
+  <polygon points="368,113 380,117 368,121" fill="#ff9800"/>
+  <text x="355" y="108" fill="#ff9800" font-size="9">Browser</text>
+  <text x="355" y="120" fill="#ff9800" font-size="9">renders</text>
+  <!-- Rendered side -->
+  <rect x="380" y="30" width="290" height="175" rx="8" fill="white" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="380" y="30" width="290" height="28" rx="8" fill="#e3f2fd"/>
+  <rect x="380" y="44" width="290" height="14" fill="#e3f2fd"/>
+  <text x="525" y="47" text-anchor="middle" fill="#1565c0" font-size="10">My Page — Browser View</text>
+  <text x="400" y="80" fill="#0a2342" font-size="18" font-weight="bold">Hello World</text>
+  <line x1="395" y1="90" x2="660" y2="90" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="108" fill="#333" font-size="12">A paragraph.</text>
+  <!-- Three pillars -->
+  <rect x="390" y="130" width="78" height="55" rx="4" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="429" y="152" text-anchor="middle" fill="#1565c0" font-size="10" font-weight="bold">HTML</text>
+  <text x="429" y="166" text-anchor="middle" fill="#546e7a" font-size="8">Structure</text>
+  <text x="429" y="178" text-anchor="middle" fill="#546e7a" font-size="8">Content</text>
+  <rect x="476" y="130" width="78" height="55" rx="4" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1"/>
+  <text x="515" y="152" text-anchor="middle" fill="#9c27b0" font-size="10" font-weight="bold">CSS</text>
+  <text x="515" y="166" text-anchor="middle" fill="#546e7a" font-size="8">Styling</text>
+  <text x="515" y="178" text-anchor="middle" fill="#546e7a" font-size="8">Appearance</text>
+  <rect x="562" y="130" width="90" height="55" rx="4" fill="#e8f5e9" stroke="#43a047" stroke-width="1"/>
+  <text x="607" y="152" text-anchor="middle" fill="#43a047" font-size="10" font-weight="bold">JavaScript</text>
+  <text x="607" y="166" text-anchor="middle" fill="#546e7a" font-size="8">Behaviour</text>
+  <text x="607" y="178" text-anchor="middle" fill="#546e7a" font-size="8">Interactivity</text>
+  <text x="350" y="222" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold" font-family="Segoe UI, Arial">HTML — Markup Language Rendered by the Browser</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="260" fill="#f0f4ff" rx="10"/>
+  <text x="350" y="30" text-anchor="middle" fill="#0a2342" font-size="14" font-weight="bold">N-Tier Web Application Architecture</text>
+  <!-- Tier 1: Presentation -->
+  <rect x="40" y="50" width="180" height="130" rx="10" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <rect x="40" y="50" width="180" height="30" rx="10" fill="#1565c0"/>
+  <rect x="40" y="65" width="180" height="15" fill="#1565c0"/>
+  <text x="130" y="70" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Presentation Tier</text>
+  <text x="130" y="102" text-anchor="middle" fill="#546e7a" font-size="10">User's Computer</text>
+  <rect x="60" y="108" width="140" height="18" rx="4" fill="#e3f2fd"/>
+  <text x="130" y="121" text-anchor="middle" fill="#1565c0" font-size="9">Web Browser</text>
+  <rect x="60" y="130" width="140" height="18" rx="4" fill="#e3f2fd"/>
+  <text x="130" y="143" text-anchor="middle" fill="#1565c0" font-size="9">HTML / CSS / JavaScript</text>
+  <rect x="60" y="152" width="140" height="18" rx="4" fill="#e3f2fd"/>
+  <text x="130" y="165" text-anchor="middle" fill="#1565c0" font-size="9">User Interface / Web Forms</text>
+  <!-- Arrow -->
+  <line x1="220" y1="115" x2="258" y2="115" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="258,111 268,115 258,119" fill="#546e7a"/>
+  <line x1="268" y1="135" x2="230" y2="135" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="230,131 220,135 230,139" fill="#546e7a"/>
+  <text x="244" y="108" text-anchor="middle" fill="#546e7a" font-size="8">HTTP</text>
+  <!-- Tier 2: Business Logic -->
+  <rect x="268" y="50" width="180" height="130" rx="10" fill="white" stroke="#00897b" stroke-width="2"/>
+  <rect x="268" y="50" width="180" height="30" rx="10" fill="#00897b"/>
+  <rect x="268" y="65" width="180" height="15" fill="#00897b"/>
+  <text x="358" y="70" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Application Tier</text>
+  <text x="358" y="102" text-anchor="middle" fill="#546e7a" font-size="10">Web / App Server</text>
+  <rect x="285" y="108" width="145" height="18" rx="4" fill="#e0f2f1"/>
+  <text x="358" y="121" text-anchor="middle" fill="#00695c" font-size="9">PHP / ASP.NET / Node.js</text>
+  <rect x="285" y="130" width="145" height="18" rx="4" fill="#e0f2f1"/>
+  <text x="358" y="143" text-anchor="middle" fill="#00695c" font-size="9">Business Logic / Rules</text>
+  <rect x="285" y="152" width="145" height="18" rx="4" fill="#e0f2f1"/>
+  <text x="358" y="165" text-anchor="middle" fill="#00695c" font-size="9">Authentication / Sessions</text>
+  <!-- Arrow -->
+  <line x1="448" y1="115" x2="486" y2="115" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="486,111 496,115 486,119" fill="#546e7a"/>
+  <line x1="496" y1="135" x2="458" y2="135" stroke="#546e7a" stroke-width="2"/>
+  <polygon points="458,131 448,135 458,139" fill="#546e7a"/>
+  <text x="472" y="108" text-anchor="middle" fill="#546e7a" font-size="8">SQL</text>
+  <!-- Tier 3: Data -->
+  <rect x="496" y="50" width="180" height="130" rx="10" fill="white" stroke="#e53935" stroke-width="2"/>
+  <rect x="496" y="50" width="180" height="30" rx="10" fill="#e53935"/>
+  <rect x="496" y="65" width="180" height="15" fill="#e53935"/>
+  <text x="586" y="70" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Data Tier</text>
+  <text x="586" y="102" text-anchor="middle" fill="#546e7a" font-size="10">Database Server</text>
+  <rect x="515" y="108" width="145" height="18" rx="4" fill="#ffebee"/>
+  <text x="586" y="121" text-anchor="middle" fill="#c62828" font-size="9">MySQL / SQL Server</text>
+  <rect x="515" y="130" width="145" height="18" rx="4" fill="#ffebee"/>
+  <text x="586" y="143" text-anchor="middle" fill="#c62828" font-size="9">Data Storage &amp; Retrieval</text>
+  <rect x="515" y="152" width="145" height="18" rx="4" fill="#ffebee"/>
+  <text x="586" y="165" text-anchor="middle" fill="#c62828" font-size="9">Transactions / Persistence</text>
+  <!-- Bottom labels -->
+  <text x="130" y="200" text-anchor="middle" fill="#1565c0" font-size="10">USER DEVICES</text>
+  <text x="358" y="200" text-anchor="middle" fill="#00897b" font-size="10">APP SERVERS</text>
+  <text x="586" y="200" text-anchor="middle" fill="#e53935" font-size="10">DATABASE SERVERS</text>
+  <text x="350" y="245" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">Three-Tier Web Architecture — Presentation | Logic | Data</text>
+</svg>

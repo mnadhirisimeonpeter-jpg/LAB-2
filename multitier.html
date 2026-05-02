@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multitier Architecture — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html" class="active">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>⚙️ Multitier Architecture</h2>
+    <p class="tagline">A layered design pattern separating an application into distinct physical and logical components</p>
+
+    <img src="images/multitier.svg" alt="3-tier web architecture diagram" class="term-img"/>
+
+    <div class="definition-box">
+      Multitier architecture (also called n-tier architecture) is a design approach where an application is divided into separate layers (logical separation of responsibilities) and tiers (physical separation on different machines), enabling scalability, maintainability, and security.
+    </div>
+
+    <h3>Layers vs Tiers</h3>
+    <div class="info-card">
+      <h4>Layers (Logical)</h4>
+      <p>A <strong>layer</strong> is a conceptual separation — it represents a role or responsibility in the software. Layers describe how the system is <em>designed</em>, not how it is deployed. The basic three layers are:</p>
+      <ul>
+        <li><strong>Presentation Layer</strong> — deals with the user interface (what the user sees)</li>
+        <li><strong>Business Logic Layer</strong> — handles the business processes and application rules</li>
+        <li><strong>Data Management Layer</strong> — manages and persists the underlying data</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h4>Tiers (Physical)</h4>
+      <p>A <strong>tier</strong> refers to physically separated devices (computers/nodes). A multi-tier system is deployed on multiple different machines, enabling distributed computing and scalability.</p>
+    </div>
+
+    <h3>The Classic 3-Tier Web Architecture</h3>
+    <table class="compare-table">
+      <tr><th>Tier</th><th>Layer</th><th>Technology Examples</th><th>Location</th></tr>
+      <tr><td>Presentation Tier</td><td>Presentation Layer</td><td>HTML, CSS, JavaScript, Web Browser</td><td>User's computer</td></tr>
+      <tr><td>Application Tier</td><td>Business Logic Layer</td><td>PHP, ASP.NET, Node.js, Java</td><td>Web/App server</td></tr>
+      <tr><td>Data Tier</td><td>Data Management Layer</td><td>MySQL, SQL Server, PostgreSQL</td><td>Database server</td></tr>
+    </table>
+
+    <h3>Real-World Example: Online Banking</h3>
+    <ul>
+      <li><strong>Presentation tier:</strong> The web browser on the customer's computer — distributed across all users' devices</li>
+      <li><strong>Application tier:</strong> The banking application server — running at the bank's data centre, processing transactions</li>
+      <li><strong>Data tier:</strong> The database servers — storing account information, transaction history, securely</li>
+    </ul>
+
+    <h3>N-Tier Architecture</h3>
+    <p>Once we use large numbers of computers running different parts of the system across multiple tiers, we have an <strong>n-tier architecture</strong>. N-tier architectures are a fundamental part of web applications because the presentation layer (in web browsers) is always widely distributed across users worldwide.</p>
+    <p>In ASP.NET web applications, the n-tier model typically includes: Web Forms/User Controls (Presentation Tier), Classes and Business Rules (Business Tier), and Repository/SQL Server (Data Tier).</p>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> Separating an application into tiers improves scalability — if more users connect, more application servers can be added to the application tier without changing the presentation or data tiers. This is why large web apps run on many servers simultaneously.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

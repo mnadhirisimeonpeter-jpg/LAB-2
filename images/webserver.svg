@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="240" fill="#f0f4ff" rx="10"/>
+  <!-- Client -->
+  <rect x="30" y="80" width="140" height="80" rx="8" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <text x="100" y="118" text-anchor="middle" fill="#1565c0" font-size="12" font-weight="bold">🖥️ Client</text>
+  <text x="100" y="136" text-anchor="middle" fill="#546e7a" font-size="10">Web Browser</text>
+  <!-- Arrow right -->
+  <line x1="170" y1="115" x2="220" y2="115" stroke="#ff9800" stroke-width="2"/>
+  <polygon points="220,111 230,115 220,119" fill="#ff9800"/>
+  <text x="200" y="107" text-anchor="middle" fill="#ff9800" font-size="9">GET /index.html</text>
+  <!-- Web Server -->
+  <rect x="230" y="50" width="160" height="140" rx="8" fill="white" stroke="#00897b" stroke-width="2"/>
+  <rect x="230" y="50" width="160" height="30" rx="8" fill="#00897b"/>
+  <rect x="230" y="65" width="160" height="15" fill="#00897b"/>
+  <text x="310" y="70" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Web Server</text>
+  <text x="310" y="100" text-anchor="middle" fill="#546e7a" font-size="9">Apache / Nginx / IIS</text>
+  <rect x="245" y="108" width="130" height="18" rx="3" fill="#e0f2f1"/>
+  <text x="310" y="120" text-anchor="middle" fill="#00695c" font-size="9">Listens on Port 80/443</text>
+  <rect x="245" y="130" width="130" height="18" rx="3" fill="#e0f2f1"/>
+  <text x="310" y="142" text-anchor="middle" fill="#00695c" font-size="9">Serves Static Files</text>
+  <rect x="245" y="152" width="130" height="18" rx="3" fill="#e0f2f1"/>
+  <text x="310" y="164" text-anchor="middle" fill="#00695c" font-size="9">Routes to App Server</text>
+  <!-- Arrow right -->
+  <line x1="390" y1="115" x2="440" y2="115" stroke="#9c27b0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="440,111 450,115 440,119" fill="#9c27b0"/>
+  <text x="420" y="107" text-anchor="middle" fill="#9c27b0" font-size="9">Dynamic?</text>
+  <!-- App Server -->
+  <rect x="450" y="65" width="130" height="80" rx="8" fill="white" stroke="#9c27b0" stroke-width="1.5"/>
+  <text x="515" y="100" text-anchor="middle" fill="#9c27b0" font-size="11" font-weight="bold">App Server</text>
+  <text x="515" y="116" text-anchor="middle" fill="#546e7a" font-size="9">PHP / Node.js / ASP</text>
+  <text x="515" y="132" text-anchor="middle" fill="#546e7a" font-size="9">Business Logic</text>
+  <!-- Arrow to DB -->
+  <line x1="515" y1="145" x2="515" y2="175" stroke="#f44336" stroke-width="1.5"/>
+  <polygon points="511,175 515,185 519,175" fill="#f44336"/>
+  <!-- DB -->
+  <ellipse cx="515" cy="195" rx="55" ry="18" fill="white" stroke="#f44336" stroke-width="1.5"/>
+  <rect x="460" y="180" width="110" height="18" fill="white" stroke="none"/>
+  <ellipse cx="515" cy="198" rx="55" ry="18" fill="white" stroke="#f44336" stroke-width="1.5"/>
+  <text x="515" y="202" text-anchor="middle" fill="#f44336" font-size="10" font-weight="bold">Database</text>
+  <!-- Response arrow back -->
+  <line x1="225" y1="130" x2="175" y2="130" stroke="#43a047" stroke-width="2"/>
+  <polygon points="175,126 165,130 175,134" fill="#43a047"/>
+  <text x="200" y="148" text-anchor="middle" fill="#43a047" font-size="9">200 OK + HTML</text>
+  <text x="350" y="225" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">Web Server Architecture — Request Processing Flow</text>
+</svg>

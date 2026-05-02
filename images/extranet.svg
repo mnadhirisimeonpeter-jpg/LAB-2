@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="230" fill="#f0f4ff" rx="10"/>
+  <!-- Org -->
+  <rect x="20" y="30" width="220" height="160" rx="10" fill="#e8f0fe" stroke="#1565c0" stroke-width="2"/>
+  <text x="130" y="55" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">🏢 Organisation</text>
+  <rect x="40" y="65" width="180" height="35" rx="6" fill="white" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="130" y="87" text-anchor="middle" fill="#1565c0" font-size="10" font-weight="bold">Intranet (Internal)</text>
+  <rect x="40" y="110" width="180" height="35" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="130" y="132" text-anchor="middle" fill="#f57f17" font-size="10" font-weight="bold">Extranet Portal</text>
+  <!-- Connecting bridge -->
+  <rect x="238" y="95" width="120" height="40" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="2"/>
+  <text x="298" y="113" text-anchor="middle" fill="#f57f17" font-size="10" font-weight="bold">🔐 Secure Link</text>
+  <text x="298" y="128" text-anchor="middle" fill="#546e7a" font-size="8">VPN / HTTPS Auth</text>
+  <line x1="220" y1="115" x2="238" y2="115" stroke="#f9a825" stroke-width="2"/>
+  <line x1="358" y1="115" x2="380" y2="115" stroke="#f9a825" stroke-width="2"/>
+  <!-- External parties -->
+  <rect x="380" y="40" width="130" height="45" rx="8" fill="white" stroke="#00897b" stroke-width="1.5"/>
+  <text x="445" y="60" text-anchor="middle" fill="#00897b" font-size="11" font-weight="bold">🏭 Supplier</text>
+  <text x="445" y="76" text-anchor="middle" fill="#546e7a" font-size="8">Selected access granted</text>
+  <rect x="380" y="95" width="130" height="45" rx="8" fill="white" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="445" y="115" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">🤝 Partner</text>
+  <text x="445" y="131" text-anchor="middle" fill="#546e7a" font-size="8">Selected access granted</text>
+  <rect x="380" y="150" width="130" height="45" rx="8" fill="white" stroke="#e53935" stroke-width="1.5"/>
+  <text x="445" y="170" text-anchor="middle" fill="#e53935" font-size="11" font-weight="bold">🛒 Customer</text>
+  <text x="445" y="186" text-anchor="middle" fill="#546e7a" font-size="8">Selected access granted</text>
+  <!-- Blocked general public -->
+  <rect x="540" y="95" width="130" height="45" rx="8" fill="#ffebee" stroke="#f44336" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="605" y="115" text-anchor="middle" fill="#f44336" font-size="10" font-weight="bold">🌐 General Public</text>
+  <text x="605" y="131" text-anchor="middle" fill="#f44336" font-size="8">❌ No Access</text>
+  <text x="350" y="215" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">Extranet — Controlled Access Bridge Between Intranet and Partners</text>
+</svg>

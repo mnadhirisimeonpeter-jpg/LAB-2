@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domain Name Server (DNS) — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html" class="active">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>📋 Domain Name Server (DNS)</h2>
+    <p class="tagline">The Internet's "phone book" — translating human-readable names into IP addresses</p>
+
+    <img src="images/dns.svg" alt="DNS resolution process diagram" class="term-img"/>
+
+    <div class="definition-box">
+      The Domain Name System (DNS) was created so people would not have to remember confusing numerical IP addresses. DNS translates human-friendly domain names (like www.strathmore.edu) into machine-friendly IP addresses (like 196.201.214.5).
+    </div>
+
+    <h3>Why DNS Exists</h3>
+    <p>Every website on the Internet has a numerical IP address (e.g. 142.250.185.46 for Google). IP addresses are not user-friendly and would cause typing errors. DNS enables short, alphabetical names to be assigned to IP addresses, making them easier to remember and more informative.</p>
+    <p>Domain names are the unique names that identify a website — they are an alpha-numeric representation of the underlying IP address, with characters separated by dots (e.g. <strong>www.strathmore.edu</strong>).</p>
+
+    <h3>Structure of a Domain Name</h3>
+    <div class="code-block">
+      www.cnn.com<br/><br/>
+      ├── www     → Machine name (host name)<br/>
+      ├── cnn     → Second-level domain (organisation name)<br/>
+      └── .com    → Top-level domain (TLD)
+    </div>
+
+    <h3>Domain Name Levels</h3>
+    <ul>
+      <li><strong>Top-Level Domain (TLD):</strong> The rightmost part of the domain name extension. Includes generic TLDs (.com, .org, .net, .edu, .gov) and country-code TLDs.</li>
+      <li><strong>Second-Level Domain:</strong> The main, customisable part of the domain (e.g. "strathmore" in www.strathmore.edu). This is what organisations register.</li>
+      <li><strong>Machine Name / Subdomain:</strong> The leftmost part, commonly "www". This identifies the specific server or service within the domain.</li>
+    </ul>
+
+    <h3>Country Code TLDs (ccTLDs)</h3>
+    <table class="compare-table">
+      <tr><th>TLD</th><th>Country</th><th>TLD</th><th>Country</th></tr>
+      <tr><td>.ke</td><td>Kenya</td><td>.uk</td><td>United Kingdom</td></tr>
+      <tr><td>.au</td><td>Australia</td><td>.fr</td><td>France</td></tr>
+      <tr><td>.ca</td><td>Canada</td><td>.in</td><td>India</td></tr>
+      <tr><td>.gr</td><td>Greece</td><td>.ru</td><td>Russian Federation</td></tr>
+    </table>
+
+    <h3>How DNS Resolution Works</h3>
+    <ul>
+      <li>You type <strong>www.strathmore.edu</strong> into your browser.</li>
+      <li>Your computer asks its DNS resolver: "What IP address does this name point to?"</li>
+      <li>The resolver queries DNS servers in a hierarchy until it finds the answer.</li>
+      <li>The DNS server returns the IP address (e.g. 196.201.214.5).</li>
+      <li>Your browser uses the IP address to connect to the web server.</li>
+    </ul>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> DNS is often called "the phonebook of the Internet." Without it, you would have to memorise the IP address of every website you visit. The global DNS system handles billions of lookups every day, in milliseconds.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

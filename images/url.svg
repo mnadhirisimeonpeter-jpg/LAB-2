@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="220" fill="#f0f4ff" rx="10"/>
+  <text x="350" y="40" text-anchor="middle" fill="#0a2342" font-size="14" font-weight="bold">Anatomy of a URL</text>
+  <!-- Full URL bar -->
+  <rect x="40" y="55" width="620" height="36" rx="18" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <text x="60" y="78" fill="#e53935" font-size="13" font-weight="bold">https://</text>
+  <text x="135" y="78" fill="#1565c0" font-size="13" font-weight="bold">www.</text>
+  <text x="175" y="78" fill="#2e7d32" font-size="13" font-weight="bold">strathmore</text>
+  <text x="280" y="78" fill="#6a1b9a" font-size="13" font-weight="bold">.edu</text>
+  <text x="320" y="78" fill="#546e7a" font-size="13" font-weight="bold">:443</text>
+  <text x="365" y="78" fill="#e65100" font-size="13" font-weight="bold">/library/</text>
+  <text x="440" y="78" fill="#0a2342" font-size="13" font-weight="bold">index.html</text>
+  <!-- Bracket labels -->
+  <!-- Protocol -->
+  <line x1="78" y1="92" x2="78" y2="110" stroke="#e53935" stroke-width="1.5"/>
+  <rect x="30" y="108" width="100" height="22" rx="4" fill="#ffebee"/>
+  <text x="80" y="123" text-anchor="middle" fill="#e53935" font-size="10" font-weight="bold">Protocol</text>
+  <!-- www -->
+  <line x1="155" y1="92" x2="155" y2="145" stroke="#1565c0" stroke-width="1.5"/>
+  <rect x="105" y="143" width="100" height="22" rx="4" fill="#e3f2fd"/>
+  <text x="155" y="158" text-anchor="middle" fill="#1565c0" font-size="10" font-weight="bold">Machine Name</text>
+  <!-- domain -->
+  <line x1="230" y1="92" x2="230" y2="110" stroke="#2e7d32" stroke-width="1.5"/>
+  <rect x="180" y="108" width="100" height="22" rx="4" fill="#e8f5e9"/>
+  <text x="230" y="123" text-anchor="middle" fill="#2e7d32" font-size="10" font-weight="bold">2nd-Level Domain</text>
+  <!-- TLD -->
+  <line x1="297" y1="92" x2="297" y2="145" stroke="#6a1b9a" stroke-width="1.5"/>
+  <rect x="247" y="143" width="100" height="22" rx="4" fill="#f3e5f5"/>
+  <text x="297" y="158" text-anchor="middle" fill="#6a1b9a" font-size="10" font-weight="bold">TLD (.edu)</text>
+  <!-- Port -->
+  <line x1="342" y1="92" x2="342" y2="110" stroke="#546e7a" stroke-width="1.5"/>
+  <rect x="292" y="108" width="100" height="22" rx="4" fill="#eceff1"/>
+  <text x="342" y="123" text-anchor="middle" fill="#546e7a" font-size="10" font-weight="bold">Port (443)</text>
+  <!-- Path -->
+  <line x1="407" y1="92" x2="407" y2="145" stroke="#e65100" stroke-width="1.5"/>
+  <rect x="357" y="143" width="100" height="22" rx="4" fill="#fff3e0"/>
+  <text x="407" y="158" text-anchor="middle" fill="#e65100" font-size="10" font-weight="bold">Directory Path</text>
+  <!-- File -->
+  <line x1="480" y1="92" x2="480" y2="110" stroke="#0a2342" stroke-width="1.5"/>
+  <rect x="430" y="108" width="100" height="22" rx="4" fill="#e8eaf6"/>
+  <text x="480" y="123" text-anchor="middle" fill="#0a2342" font-size="10" font-weight="bold">Resource/File</text>
+  <text x="350" y="200" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">URL (Uniform Resource Locator) — Complete Web Address Structure</text>
+</svg>

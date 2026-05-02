@@ -1,0 +1,51 @@
+<svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="230" fill="#f0f4ff" rx="10"/>
+  <text x="350" y="28" text-anchor="middle" fill="#0a2342" font-size="14" font-weight="bold">Evolution of the World Wide Web</text>
+  <!-- Timeline line -->
+  <line x1="60" y1="85" x2="640" y2="85" stroke="#546e7a" stroke-width="2.5"/>
+  <!-- Web 1.0 -->
+  <circle cx="110" cy="85" r="12" fill="#1565c0"/>
+  <text x="110" y="90" text-anchor="middle" fill="white" font-size="9" font-weight="bold">1.0</text>
+  <rect x="45" y="105" width="135" height="95" rx="8" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <text x="112" y="125" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Web 1.0</text>
+  <text x="112" y="138" text-anchor="middle" fill="#546e7a" font-size="8">1991 – 2004</text>
+  <text x="112" y="153" text-anchor="middle" fill="#333" font-size="9">Static pages</text>
+  <text x="112" y="167" text-anchor="middle" fill="#333" font-size="9">Read-only</text>
+  <text x="112" y="181" text-anchor="middle" fill="#333" font-size="9">Owner-controlled</text>
+  <text x="112" y="195" text-anchor="middle" fill="#0a2342" font-size="8">📖 Read</text>
+  <!-- Web 2.0 -->
+  <circle cx="270" cy="85" r="12" fill="#00897b"/>
+  <text x="270" y="90" text-anchor="middle" fill="white" font-size="9" font-weight="bold">2.0</text>
+  <rect x="205" y="105" width="135" height="95" rx="8" fill="white" stroke="#00897b" stroke-width="2"/>
+  <text x="272" y="125" text-anchor="middle" fill="#00897b" font-size="11" font-weight="bold">Web 2.0</text>
+  <text x="272" y="138" text-anchor="middle" fill="#546e7a" font-size="8">2004 – present</text>
+  <text x="272" y="153" text-anchor="middle" fill="#333" font-size="9">Dynamic content</text>
+  <text x="272" y="167" text-anchor="middle" fill="#333" font-size="9">Social media</text>
+  <text x="272" y="181" text-anchor="middle" fill="#333" font-size="9">User-generated</text>
+  <text x="272" y="195" text-anchor="middle" fill="#0a2342" font-size="8">✍️ Read &amp; Write</text>
+  <!-- Web 3.0 -->
+  <circle cx="430" cy="85" r="12" fill="#7b1fa2"/>
+  <text x="430" y="90" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3.0</text>
+  <rect x="365" y="105" width="135" height="95" rx="8" fill="white" stroke="#7b1fa2" stroke-width="2"/>
+  <text x="432" y="125" text-anchor="middle" fill="#7b1fa2" font-size="11" font-weight="bold">Web 3.0</text>
+  <text x="432" y="138" text-anchor="middle" fill="#546e7a" font-size="8">Emerging</text>
+  <text x="432" y="153" text-anchor="middle" fill="#333" font-size="9">Semantic Web</text>
+  <text x="432" y="167" text-anchor="middle" fill="#333" font-size="9">Decentralised</text>
+  <text x="432" y="181" text-anchor="middle" fill="#333" font-size="9">Blockchain / AI</text>
+  <text x="432" y="195" text-anchor="middle" fill="#0a2342" font-size="8">🧠 Read, Write, Own</text>
+  <!-- Web 4.0 -->
+  <circle cx="590" cy="85" r="12" fill="#e53935"/>
+  <text x="590" y="90" text-anchor="middle" fill="white" font-size="9" font-weight="bold">4.0</text>
+  <rect x="525" y="105" width="135" height="95" rx="8" fill="white" stroke="#e53935" stroke-width="2"/>
+  <text x="592" y="125" text-anchor="middle" fill="#e53935" font-size="11" font-weight="bold">Web 4.0</text>
+  <text x="592" y="138" text-anchor="middle" fill="#546e7a" font-size="8">Future</text>
+  <text x="592" y="153" text-anchor="middle" fill="#333" font-size="9">AI Agents</text>
+  <text x="592" y="167" text-anchor="middle" fill="#333" font-size="9">IoT Integration</text>
+  <text x="592" y="181" text-anchor="middle" fill="#333" font-size="9">Symbiotic Web</text>
+  <text x="592" y="195" text-anchor="middle" fill="#0a2342" font-size="8">🤖 Autonomous</text>
+  <!-- Timeline years -->
+  <text x="110" y="73" text-anchor="middle" fill="#546e7a" font-size="8">1991</text>
+  <text x="270" y="73" text-anchor="middle" fill="#546e7a" font-size="8">2004</text>
+  <text x="430" y="73" text-anchor="middle" fill="#546e7a" font-size="8">~2020</text>
+  <text x="590" y="73" text-anchor="middle" fill="#546e7a" font-size="8">Future</text>
+</svg>

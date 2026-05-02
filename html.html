@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html" class="active">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>📝 Hypertext Markup Language (HTML)</h2>
+    <p class="tagline">The standard language for creating and structuring web pages</p>
+
+    <img src="images/html.svg" alt="HTML code and rendered output diagram" class="term-img"/>
+
+    <div class="definition-box">
+      HTML (Hypertext Markup Language) represents textual and image content on web pages. It is platform-independent — the text and content are encoded in a way that they can be displayed on a wide range of computers, regardless of operating system or device.
+    </div>
+
+    <h3>What is HTML?</h3>
+    <p>HTML is the fundamental language of the World Wide Web. Every web page you visit is built with HTML. It uses a system of <strong>tags</strong> — special instructions enclosed in angle brackets — to define the structure and meaning of web content.</p>
+    <p>HTML is not a programming language (it cannot perform logic or calculations) — it is a <strong>markup language</strong> that describes how content should be structured and displayed in a web browser.</p>
+
+    <h3>How HTML Tags Work</h3>
+    <p>HTML tags usually come in pairs — an opening tag and a closing tag. Content goes between them:</p>
+    <div class="code-block">
+      &lt;p&gt;This is a paragraph.&lt;/p&gt;<br/>
+      &lt;h1&gt;This is a Main Heading&lt;/h1&gt;<br/>
+      &lt;a href="http://www.strathmore.edu"&gt;Visit Strathmore&lt;/a&gt;<br/>
+      &lt;img src="images/logo.png" alt="Logo"/&gt;<br/>
+      &lt;strong&gt;Bold text&lt;/strong&gt;
+    </div>
+
+    <h3>Basic HTML Document Structure</h3>
+    <div class="code-block">
+      &lt;!DOCTYPE html&gt;<br/>
+      &lt;html lang="en"&gt;<br/>
+      &nbsp;&nbsp;&lt;head&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Page Title&lt;/title&gt;<br/>
+      &nbsp;&nbsp;&lt;/head&gt;<br/>
+      &nbsp;&nbsp;&lt;body&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to My Website&lt;/h1&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is my first web page.&lt;/p&gt;<br/>
+      &nbsp;&nbsp;&lt;/body&gt;<br/>
+      &lt;/html&gt;
+    </div>
+
+    <h3>Common HTML Elements</h3>
+    <table class="compare-table">
+      <tr><th>Tag</th><th>Purpose</th></tr>
+      <tr><td>&lt;h1&gt; – &lt;h6&gt;</td><td>Headings (1 = largest)</td></tr>
+      <tr><td>&lt;p&gt;</td><td>Paragraph</td></tr>
+      <tr><td>&lt;a href="..."&gt;</td><td>Hyperlink</td></tr>
+      <tr><td>&lt;img src="..."&gt;</td><td>Image</td></tr>
+      <tr><td>&lt;ul&gt; / &lt;ol&gt;</td><td>Unordered / Ordered list</td></tr>
+      <tr><td>&lt;table&gt;</td><td>Table</td></tr>
+      <tr><td>&lt;div&gt;</td><td>Block-level container</td></tr>
+      <tr><td>&lt;form&gt;</td><td>Input form</td></tr>
+    </table>
+
+    <h3>HTML with CSS and JavaScript</h3>
+    <div class="info-card">
+      <h4>The Three Web Technologies</h4>
+      <ul>
+        <li><strong>HTML</strong> — Structure and content ("the bones")</li>
+        <li><strong>CSS</strong> (Cascading Style Sheets) — Visual presentation/styling ("the skin")</li>
+        <li><strong>JavaScript</strong> — Interactivity and behaviour ("the muscles")</li>
+      </ul>
+      <p>All three work together to create modern, dynamic web pages. HTML alone produces a plain, unstyled page.</p>
+    </div>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> HTML was invented by Tim Berners-Lee in 1991. The current standard is HTML5, introduced in 2014, which added support for native audio, video, canvas drawing, and semantic elements without needing plugins like Flash.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

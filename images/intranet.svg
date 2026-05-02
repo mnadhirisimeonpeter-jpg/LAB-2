@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="230" fill="#f0f4ff" rx="10"/>
+  <!-- Org boundary -->
+  <rect x="30" y="30" width="380" height="170" rx="12" fill="#e8f0fe" stroke="#1565c0" stroke-width="2.5" stroke-dasharray="8,4"/>
+  <text x="220" y="55" text-anchor="middle" fill="#1565c0" font-size="13" font-weight="bold">🏢 Organisation (Intranet)</text>
+  <!-- Intranet server -->
+  <rect x="160" y="65" width="120" height="60" rx="8" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <text x="220" y="92" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">Intranet Server</text>
+  <text x="220" y="108" text-anchor="middle" fill="#546e7a" font-size="9">sagana.strathmore.edu</text>
+  <!-- Employees -->
+  <rect x="50" y="100" width="90" height="50" rx="6" fill="white" stroke="#43a047" stroke-width="1.5"/>
+  <text x="95" y="122" text-anchor="middle" fill="#43a047" font-size="10" font-weight="bold">👤 Employee 1</text>
+  <text x="95" y="136" text-anchor="middle" fill="#546e7a" font-size="8">Access granted</text>
+  <rect x="50" y="160" width="90" height="30" rx="6" fill="white" stroke="#43a047" stroke-width="1.5"/>
+  <text x="95" y="180" text-anchor="middle" fill="#43a047" font-size="10" font-weight="bold">👤 Employee 2</text>
+  <rect x="300" y="100" width="90" height="50" rx="6" fill="white" stroke="#43a047" stroke-width="1.5"/>
+  <text x="345" y="122" text-anchor="middle" fill="#43a047" font-size="10" font-weight="bold">👤 Employee 3</text>
+  <text x="345" y="136" text-anchor="middle" fill="#546e7a" font-size="8">Access granted</text>
+  <!-- Firewall -->
+  <rect x="418" y="80" width="60" height="80" rx="6" fill="#ff9800"/>
+  <text x="448" y="116" text-anchor="middle" fill="white" font-size="11" font-weight="bold">🔥</text>
+  <text x="448" y="132" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Firewall</text>
+  <!-- Internet -->
+  <circle cx="590" cy="120" r="70" fill="#ffebee" stroke="#f44336" stroke-width="2"/>
+  <text x="590" y="115" text-anchor="middle" fill="#f44336" font-size="13" font-weight="bold">🌐</text>
+  <text x="590" y="135" text-anchor="middle" fill="#f44336" font-size="11" font-weight="bold">Internet</text>
+  <!-- Blocked arrow -->
+  <line x1="478" y1="120" x2="515" y2="120" stroke="#f44336" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="513" y="112" fill="#f44336" font-size="16" font-weight="bold">✕</text>
+  <text x="350" y="215" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">Intranet — Private Organisation Network Protected by Firewall</text>
+</svg>

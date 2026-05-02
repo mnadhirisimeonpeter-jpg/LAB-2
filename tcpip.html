@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TCP/IP — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html" class="active">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>📡 Transmission Control Protocol / Internet Protocol (TCP/IP)</h2>
+    <p class="tagline">The fundamental communication suite that powers the Internet</p>
+
+    <img src="images/tcpip.svg" alt="TCP/IP model layers diagram" class="term-img"/>
+
+    <div class="definition-box">
+      TCP/IP is a whole set of related protocols and tools that help computers communicate with each other across networks. It defines how data is packaged, addressed, transmitted, routed, and received.
+    </div>
+
+    <h3>What is TCP/IP?</h3>
+    <p>TCP/IP is not a single protocol but a <strong>suite</strong> of protocols — a collection of rules governing how computers communicate. The name comes from its two most important protocols: the Transmission Control Protocol (TCP) and the Internet Protocol (IP).</p>
+    <p>Every device connected to the Internet uses TCP/IP. It was developed in the 1970s by the US Department of Defense and has become the universal standard for network communication.</p>
+
+    <h3>The Two Core Protocols</h3>
+    <div class="info-card">
+      <h4>📦 IP — Internet Protocol</h4>
+      <p>IP is responsible for <strong>addressing and routing</strong> packets of data. It ensures that each data packet knows where it came from and where it's going. Every device on the Internet has a unique IP address, and IP uses these addresses to route packets across networks.</p>
+    </div>
+    <div class="info-card">
+      <h4>🔗 TCP — Transmission Control Protocol</h4>
+      <p>TCP is responsible for <strong>reliable delivery</strong>. It breaks data into packets, sends them, tracks whether they arrived, and reassembles them in the correct order. If a packet is lost, TCP requests it to be resent. This ensures data integrity.</p>
+    </div>
+
+    <h3>Other Protocols in the TCP/IP Suite</h3>
+    <ul>
+      <li><strong>HTTP/HTTPS</strong> — Web browsing</li>
+      <li><strong>SMTP</strong> — Sending email messages</li>
+      <li><strong>FTP</strong> — Allows files to be easily copied to and from remote sites</li>
+      <li><strong>DNS</strong> — Resolves domain names to IP addresses</li>
+      <li><strong>POP3 / IMAP</strong> — Receiving email</li>
+      <li><strong>SSH</strong> — Secure remote access</li>
+    </ul>
+
+    <h3>IP Addresses</h3>
+    <p>Every device on the Internet has a unique numerical IP address. There are two versions in use today:</p>
+    <table class="compare-table">
+      <tr><th>Feature</th><th>IPv4</th><th>IPv6</th></tr>
+      <tr><td>Bit length</td><td>32 bits</td><td>128 bits</td></tr>
+      <tr><td>Format</td><td>Dotted decimal (e.g. 192.168.1.1)</td><td>Hexadecimal groups (e.g. 2001:0db8::1)</td></tr>
+      <tr><td>Total addresses</td><td>~4.3 billion</td><td>~340 undecillion</td></tr>
+      <tr><td>Status</td><td>Depleting</td><td>Replacing IPv4</td></tr>
+    </table>
+
+    <div class="code-block">
+      IPv4 Example: 216.27.61.137<br/>
+      IPv6 Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+    </div>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> IP addresses are licensed from the Network Information Center (NIC) to guarantee worldwide uniqueness. An IP address and its subnet mask together determine the device's local address and the range of addresses on the same network.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

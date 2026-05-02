@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>URL — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🌐 Internet &amp; World Wide Web</h1>
+      <p class="subtitle">ICS2102 — Topic 1 Terminology Reference</p>
+    </div>
+  </header>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a href="www.html">WWW</a>
+    <a href="tcpip.html">TCP/IP</a>
+    <a href="web-browsers.html">Web Browsers</a>
+    <a href="web-servers.html">Web Servers</a>
+    <a href="url.html" class="active">URL</a>
+    <a href="dns.html">DNS</a>
+    <a href="http.html">HTTP</a>
+    <a href="intranet.html">Intranet</a>
+    <a href="extranet.html">Extranet</a>
+    <a href="multitier.html">Multitier</a>
+    <a href="ftp.html">FTP</a>
+    <a href="html.html">HTML</a>
+    <a href="web-versions.html">Web 1.0–4.0</a>
+  </nav>
+  <main class="term-page">
+    <h2>🔗 Uniform Resource Locator (URL)</h2>
+    <p class="tagline">The complete address that identifies the location of a resource on the web</p>
+
+    <img src="images/url.svg" alt="URL structure breakdown diagram" class="term-img"/>
+
+    <div class="definition-box">
+      A URL (Uniform Resource Locator) is an identifier for the location of a document or resource on the web. It is the complete specification of the location of an Internet resource, telling the browser exactly where to find it and how to access it.
+    </div>
+
+    <h3>Anatomy of a URL</h3>
+    <div class="code-block">
+      http://www.library.strathmore.edu:80/resources/index.html<br/><br/>
+      ├── http://       → Protocol<br/>
+      ├── www           → Machine name (subdomain)<br/>
+      ├── library       → Second-level domain<br/>
+      ├── strathmore    → Domain name<br/>
+      ├── .edu          → Top-level domain (TLD)<br/>
+      ├── :80           → Port number<br/>
+      └── /resources/index.html → Path to resource
+    </div>
+
+    <h3>Elements of a URL</h3>
+    <ul>
+      <li><strong>Protocol</strong> — specifies how to access the resource (e.g. <code>http://</code>, <code>https://</code>, <code>ftp://</code>)</li>
+      <li><strong>IP address or domain</strong> — identifies the server hosting the resource</li>
+      <li><strong>Port number</strong> — port 80 for HTTP, port 443 for HTTPS (often omitted as it's the default)</li>
+      <li><strong>Subdirectory path</strong> — the folder path from the document root</li>
+      <li><strong>Resource name</strong> — the specific file (a default page is loaded if none is specified)</li>
+    </ul>
+
+    <h3>URLs, URIs, and URNs</h3>
+    <table class="compare-table">
+      <tr><th>Term</th><th>Full Form</th><th>Purpose</th></tr>
+      <tr><td>URI</td><td>Uniform Resource Identifier</td><td>The general term — identifies a resource</td></tr>
+      <tr><td>URL</td><td>Uniform Resource Locator</td><td>Identifies AND locates a web resource (most common)</td></tr>
+      <tr><td>URN</td><td>Uniform Resource Name</td><td>Provides a globally unique name (not necessarily web-accessible)</td></tr>
+    </table>
+
+    <div class="info-card">
+      <h4>📌 Important Note</h4>
+      <p>A URL is a specific kind of URI. URI is the more general and technically correct term, though "URL" is the term most widely used in everyday language. All URLs are URIs, but not all URIs are URLs.</p>
+    </div>
+
+    <h3>Examples of URLs</h3>
+    <div class="code-block">
+      https://www.strathmore.edu<br/>
+      https://elearning.strathmore.edu/mod/assign/view.php?id=263535<br/>
+      ftp://files.example.com/documents/report.pdf<br/>
+      http://www.awbc.com/info/regesstepp/index.html
+    </div>
+
+    <div class="key-fact">
+      💡 <strong>Key Fact:</strong> The browser's default protocol is HTTP, so typing <em>www.strathmore.edu</em> is interpreted as <em>http://www.strathmore.edu</em>. Modern browsers upgrade this automatically to HTTPS when available.
+    </div>
+  </main>
+  <footer>
+    <p>ICS2102 Web Application Development &mdash; Topic 1 Assignment &copy; 2026</p>
+  </footer>
+</body>
+</html>

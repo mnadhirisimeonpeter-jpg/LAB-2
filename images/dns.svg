@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="230" fill="#f0f4ff" rx="10"/>
+  <!-- User -->
+  <rect x="20" y="80" width="110" height="60" rx="8" fill="white" stroke="#1565c0" stroke-width="2"/>
+  <text x="75" y="107" text-anchor="middle" fill="#1565c0" font-size="11" font-weight="bold">🖥️ Browser</text>
+  <text x="75" y="123" text-anchor="middle" fill="#546e7a" font-size="9">Types www.strathmore.edu</text>
+  <!-- Arrow 1 -->
+  <line x1="130" y1="105" x2="175" y2="105" stroke="#ff9800" stroke-width="2"/>
+  <polygon points="175,101 185,105 175,109" fill="#ff9800"/>
+  <text x="157" y="97" text-anchor="middle" fill="#ff9800" font-size="8">1. Query</text>
+  <!-- DNS Resolver -->
+  <rect x="185" y="70" width="130" height="70" rx="8" fill="white" stroke="#00897b" stroke-width="2"/>
+  <text x="250" y="100" text-anchor="middle" fill="#00897b" font-size="11" font-weight="bold">DNS Resolver</text>
+  <text x="250" y="116" text-anchor="middle" fill="#546e7a" font-size="9">(Your ISP)</text>
+  <text x="250" y="130" text-anchor="middle" fill="#546e7a" font-size="9">Checks cache first</text>
+  <!-- Arrow 2 -->
+  <line x1="315" y1="100" x2="355" y2="80" stroke="#9c27b0" stroke-width="1.5"/>
+  <polygon points="352,74 360,82 353,86" fill="#9c27b0"/>
+  <text x="338" y="80" text-anchor="middle" fill="#9c27b0" font-size="8">2. Ask Root</text>
+  <!-- Root DNS -->
+  <rect x="358" y="40" width="120" height="50" rx="8" fill="white" stroke="#9c27b0" stroke-width="2"/>
+  <text x="418" y="62" text-anchor="middle" fill="#9c27b0" font-size="11" font-weight="bold">Root DNS</text>
+  <text x="418" y="78" text-anchor="middle" fill="#546e7a" font-size="9">13 root servers globally</text>
+  <!-- Arrow 3 -->
+  <line x1="478" y1="75" x2="528" y2="75" stroke="#f44336" stroke-width="1.5"/>
+  <polygon points="528,71 538,75 528,79" fill="#f44336"/>
+  <text x="503" y="67" text-anchor="middle" fill="#f44336" font-size="8">3. TLD</text>
+  <!-- TLD Server -->
+  <rect x="538" y="50" width="120" height="50" rx="8" fill="white" stroke="#f44336" stroke-width="2"/>
+  <text x="598" y="72" text-anchor="middle" fill="#f44336" font-size="11" font-weight="bold">TLD Server</text>
+  <text x="598" y="88" text-anchor="middle" fill="#546e7a" font-size="9">.edu DNS server</text>
+  <!-- Arrow 4 down -->
+  <line x1="560" y1="100" x2="500" y2="145" stroke="#43a047" stroke-width="1.5"/>
+  <polygon points="498,138 499,148 507,143" fill="#43a047"/>
+  <text x="545" y="130" text-anchor="middle" fill="#43a047" font-size="8">4. Auth. NS</text>
+  <!-- Auth NS -->
+  <rect x="390" y="145" width="130" height="55" rx="8" fill="white" stroke="#43a047" stroke-width="2"/>
+  <text x="455" y="167" text-anchor="middle" fill="#43a047" font-size="11" font-weight="bold">Auth. Name Server</text>
+  <text x="455" y="182" text-anchor="middle" fill="#546e7a" font-size="9">strathmore.edu NS</text>
+  <text x="455" y="195" text-anchor="middle" fill="#0a2342" font-size="9" font-weight="bold">→ 196.201.214.5</text>
+  <!-- Final arrow back -->
+  <line x1="185" y1="130" x2="130" y2="130" stroke="#1565c0" stroke-width="2"/>
+  <polygon points="130,126 120,130 130,134" fill="#1565c0"/>
+  <text x="155" y="148" text-anchor="middle" fill="#1565c0" font-size="8">5. IP returned</text>
+  <text x="350" y="215" text-anchor="middle" fill="#0a2342" font-size="12" font-weight="bold">DNS Resolution — How a Domain Name Becomes an IP Address</text>
+</svg>
